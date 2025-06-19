@@ -33,6 +33,25 @@
        
         <button type="submit">Enviar</button>
     </form>
+
+    <h2>Registrer as User</h2>
+      
+    <form class="formulario" onsubmit="return checkform()">
+        <label>Name: </label>
+        <input type="text" id="name" name="name">
+
+        <label>Email: </label>
+        <input type="email" id="email" name="email">
+
+        <label>Password: </label>
+        <input type="password" id="password" name="password">
+
+        <label>Perfil Image</label>
+        <input type="file" id="image" name="image" accept="image" onchange="showImage(event)">
+        <img id="ver-image" class="ver-image">
+        
+        <button type="submit">Registrer</button>
+    </form>
 </body>
 
 <footer>
