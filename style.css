@@ -20,10 +20,11 @@
     }
 
     .table {
-        border="1" with="80%"
+        border: 1px solid #000;
+        width: 80%;
         max-width: 800px;
         margin: 20px auto;
-
+        padding: 0px;
 
     }
 
