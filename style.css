@@ -19,6 +19,14 @@
         text-align: center;
     }
 
+    .table {
+        border="1" with="80%"
+        max-width: 800px;
+        margin: 20px auto;
+
+
+    }
+
     /* /estilo sección principal */
     .contenedor {
         max-width: 800px;
